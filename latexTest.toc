@@ -1,0 +1,42 @@
+\contentsline {chapter}{\numberline {1}Presentation}{5}%
+\contentsline {section}{\numberline {1.1}Introduction}{5}%
+\contentsline {section}{\numberline {1.2}Hosting organization Presentation}{6}%
+\contentsline {section}{\numberline {1.3}Preliminary studies}{6}%
+\contentsline {subsection}{\numberline {1.3.1}WEB VR}{6}%
+\contentsline {subsubsection}{\numberline {1.3.1.1}Definition and history }{6}%
+\contentsline {subsubsection}{\numberline {1.3.1.2}goals}{7}%
+\contentsline {subsubsection}{\numberline {1.3.1.3}Pros and cons}{7}%
+\contentsline {subsubsection}{\numberline {1.3.1.4}conclusion}{8}%
+\contentsline {section}{\numberline {1.4}Project goals}{8}%
+\contentsline {section}{\numberline {1.5}Proposed solution}{8}%
+\contentsline {section}{\numberline {1.6}Related Works}{9}%
+\contentsline {subsection}{\numberline {1.6.1}Motor explorer (original application)}{9}%
+\contentsline {subsection}{\numberline {1.6.2}ESTPE VR}{10}%
+\contentsline {section}{\numberline {1.7}Development Method}{12}%
+\contentsline {subsection}{\numberline {1.7.1}Agile approach}{12}%
+\contentsline {subsection}{\numberline {1.7.2}Scrum Methodology}{12}%
+\contentsline {section}{\numberline {1.8}Conclustion}{15}%
+\contentsline {chapter}{\numberline {2}Requirement analysis and specification}{16}%
+\contentsline {section}{\numberline {2.1}Introduction}{16}%
+\contentsline {section}{\numberline {2.2}SCRUM Roles}{16}%
+\contentsline {section}{\numberline {2.3}Actors identification}{17}%
+\contentsline {section}{\numberline {2.4}Requirements Identification}{18}%
+\contentsline {subsection}{\numberline {2.4.1}Functional Requirements}{18}%
+\contentsline {subsection}{\numberline {2.4.2}Non functional requirements}{18}%
+\contentsline {section}{\numberline {2.5}Product backlog}{19}%
+\contentsline {section}{\numberline {2.6}Sprint Planning}{20}%
+\contentsline {section}{\numberline {2.7}Task Management}{21}%
+\contentsline {section}{\numberline {2.8}Modeling and Diagram}{21}%
+\contentsline {section}{\numberline {2.9}Conclusion}{21}%
+\contentsline {chapter}{\numberline {3}Project Initialization}{22}%
+\contentsline {section}{\numberline {3.1}Introduction}{22}%
+\contentsline {section}{\numberline {3.2}Solution Architecture}{22}%
+\contentsline {section}{\numberline {3.3}Technologies used}{22}%
+\contentsline {subsection}{\numberline {3.3.1}Hardware environment}{22}%
+\contentsline {subsection}{\numberline {3.3.2}Used paltforms}{23}%
+\contentsline {subsection}{\numberline {3.3.3}Tools used}{24}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Coding tools}{24}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}3D designing tools}{25}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}Versioning tools}{25}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}Modeling tool}{26}%
+\contentsline {section}{\numberline {3.4}Conclusion}{26}%
