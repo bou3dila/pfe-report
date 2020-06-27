@@ -1,8 +1,8 @@
 \documentclass[]{report}
 \usepackage{helvet}
 \usepackage{graphicx,wrapfig,lipsum}
+\usepackage[export]{adjustbox}
 \usepackage{fullpage}
-\usepackage{xcolor}
 \usepackage{sectsty}
 \setcounter{secnumdepth}{3}
 \chapterfont{C}  % sets colour of chapters
@@ -12,13 +12,15 @@
 \renewcommand{\familydefault}{\sfdefault}
 \renewcommand{\baselinestretch}{2.0}
 \setlength\parindent{24pt}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage{indentfirst}
 \usepackage{float}
 \usepackage{titlesec}
-\titleformat{\chapter}[display]
-{\normalfont\huge\bfseries\centering\color[HTML]{42428a}}
-{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 \usepackage{booktabs}
+\usepackage{caption}
+\captionsetup{labelfont={color=gray},font={color=gray}}
+\titleformat{\chapter}[hang] 
+{\normalfont\huge\bfseries\centering\color[HTML]{42428a}}{\chaptertitlename\ \thechapter:}{1em}{} 
 %\usepackage[backend=bibtex,style=authoryear,bibstyle=authoryear,sorting=nyt,firstinits=true]{bibla%tex}
 % Title Page
 
@@ -47,7 +49,7 @@
 \section{Hosting organization Presentation}
 \begin{figure}[H]
 	\begin{center}
-	\includegraphics[scale=1]{XTECHLogo.png}
+	\includegraphics[scale=0.5]{XTECHLogo.png}
 	\caption{XTECH Logo}
 	\end{center}
 \end{figure} \par
@@ -71,7 +73,7 @@ WebVR was an experimental JavaScript API that allowed web applications to
 	upgraded to version 1.1 and by than companies like Microsoft joined in on the
 	project and are actively collaborating on the 2.0 version \cite{lambo}
 
-\subsubsection{goals}
+\subsubsection{Goals}
 
 The API was designed with these goals in mind:
 \begin{itemize}
@@ -90,7 +92,9 @@ The API was designed with these goals in mind:
 \begin{table}[H]
 	
  \begin{tabular}{|c| c|}
-	\toprule Pros & Cons\\\midrule
+ 	
+	\hline
+	\rowcolor[HTML]{6600ff}  \color{white}Pros & \color{white}Cons\\\hline
 	\parbox{.45\textwidth}{\begin{itemize}
 			\item It works with all OS and devices
 			\item webVR development is cheaper
@@ -116,7 +120,7 @@ The API was designed with these goals in mind:
 \end{tabular}
 \caption[Pros and Cons of webVR]{Pros and Cons of webVR}
 \end{table}
-\subsubsection{conclusion}
+\subsubsection{Conclusion}
 The trend is currently noticeably towards the WebVR app when it comes to
 developing enterprise VR apps. This development is correct in that it puts more
 emphasis on the price / performance ratio and less on the graphics quality.
@@ -161,7 +165,7 @@ professional aspect of the application .
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.5]{2dMotorExplorer.png}
+		\includegraphics[scale=0.5, frame]{2dMotorExplorer.png}
 	\end{center}
 	\caption{2D Motor Explorer}
 \end{figure}
@@ -173,7 +177,8 @@ explorer original application
 	\begin{center}
 	\begin{tabular}{|l|l|}
 		\hline
-		\multicolumn{1}{|c|}{Motor explorer 2D}                                     & \multicolumn{1}{c|}{Motor Explorer web VR}                                                                          \\ \hline
+		\rowcolor[HTML]{6600ff}
+		\multicolumn{1}{|c|}{\color{white}Motor explorer 2D}                                     & \multicolumn{1}{c|}{\color{white}Motor Explorer web VR}                                                                          \\ \hline
 		{\color[HTML]{009901} Simple 2D interface}                                  & {\color[HTML]{FE0000} 3D detailed interface}                                                                        \\ \hline
 		{\color[HTML]{009901} Only drag-drop interactions}                          & {\color[HTML]{FE0000} \begin{tabular}[c]{@{}l@{}}User can interact in anyway with the\\ interface\end{tabular}}     \\ \hline
 		{\color[HTML]{009901} No real-life experience can be felt during the tests} & {\color[HTML]{FE0000} \begin{tabular}[c]{@{}l@{}}Tests are conducted in a real-life like\\ experience\end{tabular}} \\ \hline
@@ -218,12 +223,13 @@ This training is dedicated to maintaining safety at the workplace.
 	\begin{center}
 	\begin{tabular}{|c|c|c|}
 		\hline
-		{\color[HTML]{000000} }                   & {\color[HTML]{000000} ESTPE-VR}                     & {\color[HTML]{000000} Motor Explorer}              \\ \hline
-		{\color[HTML]{000000} Implements VR}      & {\color[HTML]{009901} YES}                          & {\color[HTML]{009901} YES}                         \\ \hline
-		{\color[HTML]{000000} Difficulty}         & {\color[HTML]{FE0000} Hard to use}                  & {\color[HTML]{009901} Easy to navigate}            \\ \hline
-		{\color[HTML]{000000} Required equipment} & {\color[HTML]{FE0000} Requires multiple VR gadgets} & {\color[HTML]{009901} Can be used without Headset} \\ \hline
-		{\color[HTML]{000000} Control system}     & {\color[HTML]{FE0000} Very hard to manipulate}      & {\color[HTML]{009901} Easy to navigate}            \\ \hline
-		{\color[HTML]{000000} Targeted audience}  & {\color[HTML]{FE0000} Only workers}                 & {\color[HTML]{009901} Both Students and workers}   \\ \hline
+		\rowcolor[HTML]{6600ff}
+		{\color[HTML]{ffffff} }                   & {\color[HTML]{ffffff} ESTPE-VR}                     & {\color[HTML]{ffffff} Motor Explorer}              \\ \hline
+		{\cellcolor[HTML]{6600ff}\color[HTML]{ffffff} Implements VR}      & {\color[HTML]{009901} YES}                          & {\color[HTML]{009901} YES}                         \\ \hline
+		{\cellcolor[HTML]{6600ff}\color[HTML]{ffffff} Difficulty}         & {\color[HTML]{FE0000} Hard to use}                  & {\color[HTML]{009901} Easy to navigate}            \\ \hline
+		{\cellcolor[HTML]{6600ff}\color[HTML]{ffffff} Required equipment} & {\color[HTML]{FE0000} Requires multiple VR gadgets} & {\color[HTML]{009901} Can be used without Headset} \\ \hline
+		{\cellcolor[HTML]{6600ff}\color[HTML]{ffffff} Control system}     & {\color[HTML]{FE0000} Very hard to manipulate}      & {\color[HTML]{009901} Easy to navigate}            \\ \hline
+		{\cellcolor[HTML]{6600ff}\color[HTML]{ffffff} Targeted audience}  & {\color[HTML]{FE0000} Only workers}                 & {\color[HTML]{009901} Both Students and workers}   \\ \hline
 	\end{tabular}
 \end{center}
 	\caption[Comparison between our app and an existing app]{Comparison Comparison between our app and an existing app}
@@ -279,7 +285,7 @@ backlog, review and goal.
 
 \begin{figure}[H]
 	\begin{center}
-	\includegraphics[width=150mm]{scrum.png}
+	\includegraphics[width=150mm, frame]{scrum.png}
 	\caption{Scrum explanation}
 \end{center}
 \end{figure}
@@ -317,7 +323,7 @@ The sprint retrospective is a meeting which the SCRUM team conducts to
 discuss certain changes that emerge during the work; it also helps improving the
 product itself and discusses certain updates to be made.
 
-\section{Conclustion}
+\section{Conclusion}
 This chapter contained information about the hosting company XTECH. It also
 provided a general definition of the project by discussing the main goal of the
 proposed solution, ending it by choosing the development methodology to
@@ -360,7 +366,8 @@ same person
 	\begin{center}
 	\begin{tabular}{cc}
 		\hline
-		\multicolumn{1}{|c|}{\textbf{Role}} & \multicolumn{1}{c|}{\textbf{Description}}           \\ \hline
+		
+		\multicolumn{1}{|c|}{\cellcolor[HTML]{5900b3}\color[HTML]{f0e6ff}\textbf{Role}} & \multicolumn{1}{c|}{\cellcolor[HTML]{5900b3}\color[HTML]{f0e6ff}\textbf{Description}}           \\ \hline
 		\multicolumn{1}{|c|}{Product Owner} & \multicolumn{1}{c|}{Zied bel haj salah}             \\ \hline
 		\multicolumn{1}{|c|}{Scrum Master}  & \multicolumn{1}{c|}{Zied bel haj salah}             \\ \hline
 		\multicolumn{1}{|c|}{Team}          & \multicolumn{1}{c|}{Firas bouadila , Slim Bardaoui} \\ \hline \multicolumn{1}{l}{}                               
@@ -441,7 +448,8 @@ explaining the global actions of our product.
 	\begin{center}
 	\begin{tabular}{ccc}
 		\hline
-		\multicolumn{1}{|c|}{\textbf{User story}}                                                                                                             & \multicolumn{1}{c|}{\textbf{Priority}} & \multicolumn{1}{c|}{{\textbf {Estimation(days)}}} \\ \hline
+		\rowcolor[HTML]{6600ff}
+		\multicolumn{1}{|c|}{\color{white}\textbf{User story}}                                                                                                             & \multicolumn{1}{c|}{\color{white}\textbf{Priority}} & \multicolumn{1}{c|}{{\color{white}\textbf {Estimation(days)}}} \\ \hline
 		\multicolumn{1}{|c|}{I as a user would like to see a control panel}                                                                                   & \multicolumn{1}{c|}{1}                 & \multicolumn{1}{c|}{1}                \\ \hline
 		\multicolumn{1}{|c|}{I as a user would like to set the load}                                                                                          & \multicolumn{1}{c|}{2}                 & \multicolumn{1}{c|}{3}                \\ \hline
 		\multicolumn{1}{|c|}{I as a user would like to set the speed}                                                                                         & \multicolumn{1}{c|}{3}                 & \multicolumn{1}{c|}{3}                \\ \hline
@@ -474,7 +482,7 @@ of 2 weeks duration and their tasks repartition is decided as
 this:
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.7]{SprintPlanning.png}
+		\includegraphics[scale=0.7, frame]{SprintPlanning.png}
 		\caption{Sprint planning}
 	\end{center}
 \end{figure}
@@ -483,7 +491,8 @@ this:
 	\begin{center}
 	\begin{tabular}{|l|}
 		\hline
-		\multicolumn{1}{|c|}{\textbf{Sprint name}} \\ \hline
+		\rowcolor[HTML]{6600ff}
+		\multicolumn{1}{|c|}{\color{white}\textbf{Sprint name}} \\ \hline
 		Sprint 1 : First UI                        \\ \hline
 		Sprint 2 : Into the GUI                    \\ \hline
 		Sprint 3 : Animations and calculations     \\ \hline
@@ -498,14 +507,18 @@ We used Trello board to manage our tasks.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=0.5]{Trello.png}
+		\includegraphics[scale=0.5, frame]{Trello.png}
 		\caption{Trello}
 	\end{center}
 \end{figure}
 
-\section{Modeling and Diagram}
+\section{Functional Requirements Modeling}
+\subsection{Use case}
 
-//PLACE HOLDER FOR THE DIAGRAM
+\begin{figure}[H]
+		\includegraphics[scale=0.8, frame]{useCase.png}
+		\caption{global use case}
+\end{figure}
 
 \section{Conclusion}
 This chapter explained the work-flow and the approaches
@@ -603,19 +616,25 @@ GitLab helps teams design, develop and securely manage code and project data fro
 \subsubsection{Modeling tool}
 
 
-\begin{wrapfigure}{l}{3cm}
-	\includegraphics[width=3cm]{Staruml}
+\begin{wrapfigure}{l}{4cm}
+	\includegraphics[width=4cm]{Staruml}
 	\caption{StarUml Logo}
 \end{wrapfigure} 
 
 
-“StarUML is an open source software-modeling tool that supports UML (Unified Modeling Language). It is based on UML version 1.4, provides eleven different types of diagram and it accepts UML 2.0 notation. It actively supports the MDA (Model Driven Architecture) approach by supporting the UML profile concept and allowing generating code for multiple languages.”  \\\\\\\\\\\par
+“StarUML is an open source software-modeling tool that supports UML (Unified Modeling Language). It is based on UML version 1.4, provides eleven different types of diagram and it accepts UML 2.0 notation. It actively supports the MDA (Model Driven Architecture) approach by supporting the UML profile concept and allowing generating code for multiple languages.”  \\\\\\\\\par
 
 \section{Conclusion}
 
 This chapter contained the detailed information on different logical aspects of the development process explaining the tools used and the architecthre decided upon while also expanding reasons toward why we made certain choices as we move forward to the sprints section of this work .
 
 \begin{thebibliography}{9}
+	
+	\bibitem{lambo}
+	Clark Lambot,
+	\textit{A Brief History of VR},
+	https://veer.tv/blog/a-brief-history-of-vr/,
+	8 Nov , 2018.
 	
 	\bibitem{lambo}
 	Clark Lambot,

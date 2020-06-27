@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.25)  26 JUN 2020 20:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.25)  27 JUN 2020 01:09
 entering extended mode
 **./latexTest.tex
 (latexTest.tex
@@ -97,29 +97,74 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 psum.ltd.tex"
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox
+\adjustbox.sty"
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\x
+keyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval
+\xkeyval.tex"
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval
+\xkvutils.tex"
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+)
+\XKV@depth=\count182
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox
+\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox
+\trimclip.sty"
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/collectbo
+x\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box47
+)
+\tc@llx=\dimen139
+\tc@lly=\dimen140
+\tc@urx=\dimen141
+\tc@ury=\dimen142
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox
+\tc-pdftex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen143
+\adjbox@Height=\dimen144
+\adjbox@Depth=\dimen145
+\adjbox@Totalheight=\dimen146
+\adjbox@pwidth=\dimen147
+\adjbox@pheight=\dimen148
+\adjbox@pdepth=\dimen149
+\adjbox@ptotalheight=\dimen150
+
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage
+\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count183
+)
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/varwidth\
+varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box48
+\sift@deathcycles=\count184
+\@vwid@loff=\dimen151
+\@vwid@roff=\dimen152
+))
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/preprint\
 fullpage.sty"
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip49
-)
-("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xc
-olor.sty"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-
-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sectsty\s
 ectsty.sty"
@@ -135,6 +180,45 @@ LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
 )
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xc
+olor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-
+cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\
+colortbl.sty"
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\arr
+ay.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen153
+\ar@mcellbox=\box49
+\extrarowheight=\dimen154
+\NC@list=\toks19
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box50
+)
+\everycr=\toks20
+\minrowclearance=\skip52
+)
+\rownum=\count185
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\ind
 entfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
@@ -142,64 +226,90 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\flo
 at.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count182
-\float@exts=\toks17
-\float@box=\box47
-\@float@everytoks=\toks18
-\@floatcapt=\box48
+\c@float@type=\count186
+\float@exts=\toks21
+\float@box=\box51
+\@float@everytoks=\toks22
+\@floatcapt=\box52
 )
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\
 titlesec.sty"
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box49
-\beforetitleunit=\skip50
-\aftertitleunit=\skip51
-\ttl@plus=\dimen139
-\ttl@minus=\dimen140
-\ttl@toksa=\toks19
-\titlewidth=\dimen141
-\titlewidthlast=\dimen142
-\titlewidthfirst=\dimen143
+\ttl@box=\box53
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen155
+\ttl@minus=\dimen156
+\ttl@toksa=\toks23
+\titlewidth=\dimen157
+\titlewidthlast=\dimen158
+\titlewidthfirst=\dimen159
 )
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\
 booktabs.sty"
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen144
-\lightrulewidth=\dimen145
-\cmidrulewidth=\dimen146
-\belowrulesep=\dimen147
-\belowbottomsep=\dimen148
-\aboverulesep=\dimen149
-\abovetopsep=\dimen150
-\cmidrulesep=\dimen151
-\cmidrulekern=\dimen152
-\defaultaddspace=\dimen153
-\@cmidla=\count183
-\@cmidlb=\count184
-\@aboverulesep=\dimen154
-\@belowrulesep=\dimen155
-\@thisruleclass=\count185
-\@lastruleclass=\count186
-\@thisrulewidth=\dimen156
-) (latexTest.aux)
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count187
+\@cmidlb=\count188
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count189
+\@lastruleclass=\count190
+\@thisrulewidth=\dimen172
+)
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\c
+aption.sty"
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\c
+aption3.sty"
+Package: caption3 2020/05/30 v1.12 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count191
+\c@continuedfloat=\count192
+Package caption Info: float package is loaded.
+Package caption Info: wrapfig package is loaded.
+) (latexTest.aux
+
+LaTeX Warning: Label `lambo' multiply defined.
+
+)
 \openout1 = `latexTest.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 3
-0.
+2.
 
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot
 1phv.fd"
@@ -208,17 +318,17 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mk
 ii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count187
-\scratchdimen=\dimen157
-\scratchbox=\box50
-\nofMPsegments=\count188
-\nofMParguments=\count189
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count190
-\MPscratchDim=\dimen158
-\MPnumerator=\count191
-\makeMPintoPDFobject=\count192
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count193
+\scratchdimen=\dimen180
+\scratchbox=\box54
+\nofMPsegments=\count194
+\nofMParguments=\count195
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count196
+\MPscratchDim=\dimen181
+\MPnumerator=\count197
+\makeMPintoPDFobject=\count198
+\everyMPtoPDFconversion=\toks25
 )
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-
 pkg\epstopdf-base.sty"
@@ -226,12 +336,14 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 31.
+(Font)              <12> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 31.
+(Font)              <8> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 31.
+(Font)              <6> on input line 33.
  [1
 
 {C:/Users/Firas Bouadila/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (l
@@ -264,243 +376,246 @@ Chapter 1.
 <XTECHLogo.png, id=19, 159.59625pt x 159.59625pt>
 File: XTECHLogo.png Graphic file (type png)
 <use XTECHLogo.png>
-Package pdftex.def Info: XTECHLogo.png  used on input line 50.
-(pdftex.def)             Requested size: 159.59584pt x 159.59584pt.
+Package pdftex.def Info: XTECHLogo.png  used on input line 52.
+(pdftex.def)             Requested size: 79.79791pt x 79.79791pt.
 [5
 
-] [6 <./XTECHLogo.png>]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 7
-9.
+ <./XTECHLogo.png>]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8
+1.
 
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts
 1phv.fd"
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-) [7] [8]
-<2dMotorExplorer.png, id=34, 1033.61156pt x 469.00218pt>
+) [6] [7]
+<2dMotorExplorer.png, id=31, 1033.61156pt x 469.00218pt>
 File: 2dMotorExplorer.png Graphic file (type png)
 <use 2dMotorExplorer.png>
-Package pdftex.def Info: 2dMotorExplorer.png  used on input line 164.
+Package pdftex.def Info: 2dMotorExplorer.png  used on input line 168.
 (pdftex.def)             Requested size: 516.80452pt x 234.50052pt.
 
-Overfull \hbox (47.0495pt too wide) in paragraph at lines 164--165
+Overfull \hbox (47.84949pt too wide) in paragraph at lines 168--169
  [] 
  []
 
-[9 <./2dMotorExplorer.png>]
+[8] [9 <./2dMotorExplorer.png>]
 <ESTPEVR.png, id=40, 938.00438pt x 357.58594pt>
 File: ESTPEVR.png Graphic file (type png)
 <use ESTPEVR.png>
-Package pdftex.def Info: ESTPEVR.png  used on input line 201.
+Package pdftex.def Info: ESTPEVR.png  used on input line 206.
 (pdftex.def)             Requested size: 469.00104pt x 178.79253pt.
- [10]
-<ESTPEVR1.png, id=44, 782.17218pt x 295.1025pt>
+<ESTPEVR1.png, id=41, 782.17218pt x 295.1025pt>
 File: ESTPEVR1.png Graphic file (type png)
 <use ESTPEVR1.png>
-Package pdftex.def Info: ESTPEVR1.png  used on input line 209.
+Package pdftex.def Info: ESTPEVR1.png  used on input line 214.
 (pdftex.def)             Requested size: 469.30693pt x 177.06285pt.
- [11 <./ESTPEVR.png> <./ESTPEVR1.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./ESTPEVR.png>] [11 <./ESTPEVR1.png>]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 253.
- [12]
-Underfull \hbox (badness 10000) in paragraph at lines 272--279
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 259.
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--285
 
  []
 
-<scrum.png, id=55, 1027.84pt x 770.88pt>
+<scrum.png, id=50, 1027.84pt x 770.88pt>
 File: scrum.png Graphic file (type png)
 <use scrum.png>
-Package pdftex.def Info: scrum.png  used on input line 282.
+Package pdftex.def Info: scrum.png  used on input line 288.
 (pdftex.def)             Requested size: 426.79134pt x 320.09744pt.
-[13] [14 <./scrum.png (PNG copy)>] [15]
+[12] [13 <./scrum.png (PNG copy)>] [14]
 Chapter 2.
-[16
+[15
 
 ]
-<User.png, id=68, 270.00874pt x 188.705pt>
+<User.png, id=65, 270.00874pt x 188.705pt>
 File: User.png Graphic file (type png)
 <use User.png>
-Package pdftex.def Info: User.png  used on input line 383.
+Package pdftex.def Info: User.png  used on input line 390.
 (pdftex.def)             Requested size: 140.92859pt x 170.71689pt.
- [17 <./User.png>] [18]
-Overfull \vbox (20.77705pt too high) has occurred while \output is active []
+ [16 <./User.png>] [17]
+Overfull \vbox (19.77705pt too high) has occurred while \output is active []
 
 
-[19]
-<SprintPlanning.png, id=80, 750.55406pt x 403.5075pt>
+[18]
+<SprintPlanning.png, id=77, 750.55406pt x 403.5075pt>
 File: SprintPlanning.png Graphic file (type png)
 <use SprintPlanning.png>
-Package pdftex.def Info: SprintPlanning.png  used on input line 477.
+Package pdftex.def Info: SprintPlanning.png  used on input line 485.
 (pdftex.def)             Requested size: 525.38426pt x 282.45332pt.
 
-Overfull \hbox (55.62924pt too wide) in paragraph at lines 477--478
+Overfull \hbox (56.42923pt too wide) in paragraph at lines 485--486
  [] 
  []
 
-<Trello.png, id=81, 1026.08344pt x 453.94594pt>
+[19 <./SprintPlanning.png>]
+<Trello.png, id=82, 1026.08344pt x 453.94594pt>
 File: Trello.png Graphic file (type png)
 <use Trello.png>
-Package pdftex.def Info: Trello.png  used on input line 501.
+Package pdftex.def Info: Trello.png  used on input line 510.
 (pdftex.def)             Requested size: 513.04047pt x 226.97241pt.
 
-Overfull \hbox (43.28545pt too wide) in paragraph at lines 501--502
+Overfull \hbox (44.08543pt too wide) in paragraph at lines 510--511
  [] 
  []
 
-[20 <./SprintPlanning.png>] [21 <./Trello.png>]
+<useCase.png, id=83, 576.65437pt x 315.42844pt>
+File: useCase.png Graphic file (type png)
+<use useCase.png>
+Package pdftex.def Info: useCase.png  used on input line 519.
+(pdftex.def)             Requested size: 461.32411pt x 252.34308pt.
+[20 <./Trello.png>] [21 <./useCase.png>]
 Chapter 3.
 [22
 
 ]
-<React.png, id=93, 1246.6575pt x 710.655pt>
+<React.png, id=95, 1246.6575pt x 710.655pt>
 File: React.png Graphic file (type png)
 <use React.png>
-Package pdftex.def Info: React.png  used on input line 541.
+Package pdftex.def Info: React.png  used on input line 554.
 (pdftex.def)             Requested size: 156.49014pt x 89.20033pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--545
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
 
  []
 
-<Aframe.jpg, id=94, 225.84375pt x 225.84375pt>
+<Aframe.jpg, id=96, 225.84375pt x 225.84375pt>
 File: Aframe.jpg Graphic file (type jpg)
 <use Aframe.jpg>
-Package pdftex.def Info: Aframe.jpg  used on input line 548.
+Package pdftex.def Info: Aframe.jpg  used on input line 561.
 (pdftex.def)             Requested size: 156.49014pt x 156.49744pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 554--555
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 
  []
 
-<Aframe-react.png, id=95, 331.2375pt x 255.95625pt>
+<Aframe-react.png, id=97, 331.2375pt x 255.95625pt>
 File: Aframe-react.png Graphic file (type png)
 <use Aframe-react.png>
-Package pdftex.def Info: Aframe-react.png  used on input line 559.
+Package pdftex.def Info: Aframe-react.png  used on input line 572.
 (pdftex.def)             Requested size: 156.49014pt x 120.92433pt.
-[23 <./React.png> <./Aframe.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 562--562
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--575
 
  []
 
-<super-hands.png, id=100, 417.05812pt x 182.18062pt>
+[23 <./React.png> <./Aframe.jpg> <./Aframe-react.png>]
+<super-hands.png, id=103, 417.05812pt x 182.18062pt>
 File: super-hands.png Graphic file (type png)
 <use super-hands.png>
-Package pdftex.def Info: super-hands.png  used on input line 565.
+Package pdftex.def Info: super-hands.png  used on input line 578.
 (pdftex.def)             Requested size: 156.49014pt x 68.35925pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 
  []
 
-<vscode.jpg, id=101, 225.84375pt x 225.84375pt>
+<vscode.jpg, id=104, 225.84375pt x 225.84375pt>
 File: vscode.jpg Graphic file (type jpg)
 <use vscode.jpg>
-Package pdftex.def Info: vscode.jpg  used on input line 578.
+Package pdftex.def Info: vscode.jpg  used on input line 591.
 (pdftex.def)             Requested size: 113.81102pt x 113.81412pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--583
+Underfull \hbox (badness 10000) in paragraph at lines 594--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--583
+Underfull \hbox (badness 10000) in paragraph at lines 594--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--583
+Underfull \hbox (badness 10000) in paragraph at lines 594--596
 
  []
 
-[24 <./Aframe-react.png> <./super-hands.png> <./vscode.jpg>]
-<3dBuilder.png, id=107, 200.75pt x 200.75pt>
+<3dBuilder.png, id=105, 200.75pt x 200.75pt>
 File: 3dBuilder.png Graphic file (type png)
 <use 3dBuilder.png>
-Package pdftex.def Info: 3dBuilder.png  used on input line 586.
+Package pdftex.def Info: 3dBuilder.png  used on input line 599.
 (pdftex.def)             Requested size: 156.49014pt x 156.50165pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 591--591
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 591--591
+[24 <./super-hands.png> <./vscode.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--591
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--591
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 
  []
 
-<gitlab.png, id=108, 319.1925pt x 158.5925pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
+
+ []
+
+<gitlab.png, id=110, 319.1925pt x 158.5925pt>
 File: gitlab.png Graphic file (type png)
 <use gitlab.png>
-Package pdftex.def Info: gitlab.png  used on input line 595.
+Package pdftex.def Info: gitlab.png  used on input line 608.
 (pdftex.def)             Requested size: 156.49014pt x 77.75212pt.
-<Staruml.png, id=109, 220.825pt x 209.78375pt>
+<Staruml.png, id=111, 220.825pt x 209.78375pt>
 File: Staruml.png Graphic file (type png)
 <use Staruml.png>
-Package pdftex.def Info: Staruml.png  used on input line 607.
-(pdftex.def)             Requested size: 85.35826pt x 81.08868pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
-[]\OT1/phv/m/n/10 Figure 3.8:
- []
-
+Package pdftex.def Info: Staruml.png  used on input line 620.
+(pdftex.def)             Requested size: 113.81102pt x 108.12144pt.
 [25 <./3dBuilder.png> <./gitlab.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 612--612
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
 
  []
 
 [26 <./Staruml.png>]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 622.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 635.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 628.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 647.
  [27
 
-] (latexTest.aux) ) 
+] (latexTest.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3053 strings out of 480799
- 52454 string characters out of 2891579
- 454661 words of memory out of 3000000
- 19005 multiletter control sequences out of 15000+200000
- 556856 words of font info for 59 fonts, out of 3000000 for 9000
+ 5317 strings out of 480799
+ 92728 string characters out of 2891579
+ 453661 words of memory out of 3000000
+ 21223 multiletter control sequences out of 15000+200000
+ 555223 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,45p,455b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Firas Bouadila/AppData/Local/Programs/MiKTeX 2.9/f
-onts/enc/dvips/base/8r.enc}<C:/Users/Firas Bouadila/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Firas Bouadila/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Firas Boua
-dila/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on latexTest.pdf (28 pages, 3267883 bytes).
+ 55i,16n,96p,455b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Firas Bouadila/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/ba
+se/8r.enc}<C:/Users/Firas Bouadila/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/urw/helvetic/uhvb8a.pfb><C:/Users/Firas Bouadila/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Firas Bouadila/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on latexTest.pdf (28 pages, 3304784 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
