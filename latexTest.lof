@@ -1,19 +1,34 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces XTECH Logo\relax }}{5}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces 2D Motor Explorer\relax }}{9}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Transformer Oil Sampling UI\relax }}{10}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Occupational Safety And Health Training for Electricians UI\relax }}{11}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Scrum explanation\relax }}{13}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces XTECH Logo\relax }}{8}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces 2D Motor Explorer\relax }}{12}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Transformer Oil Sampling UI\relax }}{13}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Occupational Safety And Health Training for Electricians UI\relax }}{14}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Scrum explanation\relax }}{16}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Sprint planning\relax }}{19}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Trello\relax }}{20}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces global use case\relax }}{21}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Sprint planning\relax }}{22}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Trello\relax }}{23}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces global use case\relax }}{24}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces React Logo\relax }}{23}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces A-frame Logo\relax }}{23}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Aframe-react Logo\relax }}{23}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces super-hands Logo\relax }}{24}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces visual studio code Logo\relax }}{24}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 3D builder Logo\relax }}{25}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces GitLab Logo\relax }}{25}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces StarUml Logo\relax }}{26}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces React Logo\relax }}{26}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A-frame Logo\relax }}{26}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Aframe-react Logo\relax }}{26}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces super-hands Logo\relax }}{27}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces visual studio code Logo\relax }}{27}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 3D builder Logo\relax }}{28}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces GitLab Logo\relax }}{28}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces StarUml Logo\relax }}{29}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Use case diagram "Sprint One"\relax }}{32}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Use case diagram "Control Panel"\relax }}{33}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Use case diagram "Load Setting"\relax }}{34}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Use case diagram "Voltage Setting"\relax }}{35}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Use case diagram "Load Setting"\relax }}{36}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Use case diagram "Speed Setting"\relax }}{37}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Use case diagram "Start/End the test"\relax }}{38}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Use case diagram "Results Menu"\relax }}{39}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Use case diagram "Sprint Two"\relax }}{41}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Use case diagram "Motor Menu"\relax }}{41}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Use case diagram "Dynamometer"\relax }}{42}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Use case diagram "Work-bench"\relax }}{43}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Use case diagram "Drag and Drop"\relax }}{44}%

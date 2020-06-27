@@ -215,9 +215,10 @@ This training is dedicated to maintaining safety at the workplace.
 	\caption{Occupational Safety And Health Training for Electricians UI}
 	\end{center}
 \end{figure}
+\\\\\\\\\\\\
+\par
 
-
-{\Large{\color[HTML]{00D2CB} Comparison between  apps}}
+{\Large{\color[HTML]{6200C9} Comparison between  apps}}
 \begin{table}[H]
 
 	\begin{center}
@@ -627,6 +628,333 @@ GitLab helps teams design, develop and securely manage code and project data fro
 \section{Conclusion}
 
 This chapter contained the detailed information on different logical aspects of the development process explaining the tools used and the architecthre decided upon while also expanding reasons toward why we made certain choices as we move forward to the sprints section of this work .
+
+\chapter{First Sprint}
+\section{Introduction}
+After conducting the work needed in “Sprint 0” by planning the flow of our work and bringing focus to the different functionalities that we promised to deliver this chapter will contain all the different details about the first sprint. \\
+It will contain the sprint backlog, the conception of this sprint and we will finish by multiple screenshots of the obtained results.
+
+\section{Sprint backlog}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|}
+	\hline
+	\rowcolor[HTML]{6200C9} 
+	\multicolumn{1}{|c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} User story}}              & \multicolumn{1}{c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} Description}}                                                                  & \multicolumn{1}{c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} Priority}} & \multicolumn{1}{c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} Estimation}} \\ \hline
+	\begin{tabular}[c]{@{}l@{}}I as a user would like to see a control \\ panel\end{tabular}     & \begin{tabular}[c]{@{}l@{}}User gains access to a control panel that contains\\ interactive buttons and sliders\end{tabular}                     & 1                                                                            & 1                                                                              \\ \hline
+	I as a user would like to set the load                                                       & \begin{tabular}[c]{@{}l@{}}User gets to manipulate a slider that helps him set\\ the value of the Load\end{tabular}                              & 2                                                                            & 3                                                                              \\ \hline
+	I as a user would like to set the speed                                                      & \begin{tabular}[c]{@{}l@{}}User gets to manipulate a slider that helps him set\\ the value of the Speed\end{tabular}                             & 3                                                                            & 3                                                                              \\ \hline
+	I as a user would like to set the voltage                                                    & \begin{tabular}[c]{@{}l@{}}User gets to manipulate a slider that helps him set \\ the value of the Voltage\end{tabular}                          & 4                                                                            & 3                                                                              \\ \hline
+	\begin{tabular}[c]{@{}l@{}}I as a user would like to turn the test\\ on and off\end{tabular} & \begin{tabular}[c]{@{}l@{}}Add a visible on and off button for the user to \\ initiate the testing\end{tabular}                                  & 5                                                                            & 2                                                                              \\ \hline
+	\begin{tabular}[c]{@{}l@{}}I as a user would like to have a result \\ menu\end{tabular}      & \begin{tabular}[c]{@{}l@{}}On the control panel add a section of visible results\\  for the test which will be updated in real time\end{tabular} & 6                                                                            & 2                                                                              \\ \hline
+\end{tabular}
+\caption{Sprint one backlog}
+\end{table}
+\section{Analysis and conception}
+
+The next section will contain detailed information on each functionality of the sprint.
+
+\subsection{Actors identification}
+The only actor is the user
+\subsection{Use case diagram}
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{sprintOneUseCase.png}
+	\caption{Use case diagram "Sprint One"}
+\end{figure}
+
+\subsubsection{Control panel}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{controlPanelUseCase.png}
+	\caption{Use case diagram "Control Panel"}
+\end{figure}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       &  Control Panel                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  Can’t be accessible until user places a motor                                                                                                                                                \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} &  Shows the interactive sliders and buttons                                                                                                                                  \\ \hline
+			{\color[HTML]{FFFFFF} Description}    &  {\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}At first it will be a screen asking user to place a motor after user conducts the action the panel \\ transforms into a multiple button / sliders composition revealing the controls to the user\end{tabular}}                                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &  {\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}The run button wont work until the user presses the on/off buttone\end{tabular}} \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Control Panel"}
+\end{table}
+
+\subsubsection{Load Setting}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{LoadUseCase.png}
+	\caption{Use case diagram "Load Setting"}
+\end{figure}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       &  Load setting                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User must enable the control panel                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} & Slider maximum and minimum value correspond to the motor inserted                                                                                                                                  \\ \hline
+			{\color[HTML]{FFFFFF} Description}    &  {\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}After placing a motor the load slider will allow user to set the value needed to conduct the test \end{tabular}}                                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &  \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Load Setting"}
+\end{table}
+
+
+\subsubsection{Voltage Setting}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{VoltageUseCase.png}
+	\caption{Use case diagram "Voltage Setting"}
+\end{figure}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       &  Voltage setting                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User must enable the control panel                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} & Slider maximum and minimum value correspond to the motor inserted                                                                                                                                  \\ \hline
+			{\color[HTML]{FFFFFF} Description}    &  {\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}After placing a motor the load slider will allow user to set the value needed to conduct the test \end{tabular}}                                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &  \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Voltage Setting"}
+\end{table}
+
+
+\subsubsection{Load Setting}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{LoadUseCase.png}
+	\caption{Use case diagram "Load Setting"}
+\end{figure}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       &  Load setting                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User must enable the control panel                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} & Slider maximum and minimum value correspond to the motor inserted                                                                                                                                  \\ \hline
+			{\color[HTML]{FFFFFF} Description}    &  {\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}After placing a motor the voltage slider will allow user to set the value needed to conduct the test \end{tabular}}                                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &  \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Load Setting"}
+\end{table}
+
+
+\subsubsection{Speed Setting}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{SpeedUseCase.png}
+	\caption{Use case diagram "Speed Setting"}
+\end{figure}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       &  Speed setting                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User must enable the control panel                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} & Slider maximum and minimum value correspond to the motor inserted                                                                                                                                  \\ \hline
+			{\color[HTML]{FFFFFF} Description}    &  {\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}After placing a motor the speed slider will allow user to set the value needed to conduct the test \end{tabular}}                                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &  \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Speed Setting"}
+\end{table}
+
+\subsubsection{Start/End the test}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{StartEndUseCase.png}
+	\caption{Use case diagram "Start/End the test"}
+\end{figure}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       &  Start/End                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User must enable the control panel and hit the on  button                                                                  \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} & User can use the button again to end the current test                                                                                                                                  \\ \hline
+			{\color[HTML]{FFFFFF} Description}    &  {\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}This button allows for easy control to turn on and off the testing in hand  \end{tabular}}                                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &  \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Start/End the test"}
+\end{table}
+
+
+\subsubsection{Results menu}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{ResultMenuUseCase.png}
+	\caption{Use case diagram "Results Menu"}
+\end{figure}
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       &  Results menu                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User must enable the control panel and conduct a test                                                                \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} & Values on this menu will dynamically be updated during the test                                                                                                                                  \\ \hline
+			{\color[HTML]{FFFFFF} Description}    &  {\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}This menu is where the user can view the results , it is automatically updated during the test \\ with the motor status and each value needed   \end{tabular}}                                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &  \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Results menu"}
+\end{table}
+
+
+\section{Realization}
+
+\section{Conclusion}
+This chapter contained the main content for the first sprint with detailed view on each functionality and concluding with a set of screenshots on the realized work as we push forward to the next sprint.
+
+
+\chapter{Second Sprint}
+\section{Introduction}
+After reviewing sprint 1 , we begin our second sprint. We lead by showing the sprint backlog into the analysis only to end by showing some of finished interfaces.
+
+\section{Sprint backlog}
+
+\begin{table}[H]
+	\begin{center}
+\begin{tabular}{|l|l|l|}
+	\hline
+	\rowcolor[HTML]{6200C9} 
+	\multicolumn{1}{|c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} \textbf{User story}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} \textbf{Priority}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} \textbf{Estimation}}} \\ \hline
+	I as a user would like to have a motor menu                                              & 7                                                                                     & 2                                                                                       \\ \hline
+	I as a user would like to see a dynamometer                                              & 8                                                                                     & 2                                                                                       \\ \hline
+	I as a user would like to see a workbench                                                & 9                                                                                     & 2                                                                                       \\ \hline
+	I as a user would like to interact with the work-bench                                   & 10                                                                                    & 8                                                                                       \\ \hline
+\end{tabular}
+\caption{Sprint two backlog}
+\end{center}
+\end{table}
+
+\section{Analysis and conception}
+
+the next section will contain the use case diagrams for each of the functionalities.
+\subsection{Actors identification}
+This sprint has one actor: User
+\subsection{Use case diagram}
+\begin{figure}[H]
+		\includegraphics[scale=0.9, frame]{sprintTwoUseCase.png}
+	\caption{Use case diagram "Sprint Two"}
+	\end{figure}
+
+\subsubsection{Motor menu}
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{motorMenuUseCase.png}
+	\caption{Use case diagram "Motor Menu"}
+	\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+	\begin{tabular}{|
+			>{\columncolor[HTML]{6200C9}}l |l|}
+		\hline
+		{\color[HTML]{FFFFFF} Use case}       &  Motor menu                                                                                                                                                     \\ \hline
+		{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+		{\color[HTML]{FFFFFF} Pre-condition}  &  User is loaded-in                                                                                                                                                \\ \hline
+		{\color[HTML]{FFFFFF} Post Condition} &  User can view the motor menu                                                                                                                                    \\ \hline
+		{\color[HTML]{FFFFFF} Description}    &  Shows a set of motors that the user can pick from to run the test                                                                                               \\ \hline
+		{\color[HTML]{FFFFFF} Exception}      &  {\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}Only 1 motor can be picked at a time picking another one will \\ result in placing the first motor to its original place\end{tabular}} \\ \hline
+	\end{tabular}
+\end{center}
+\caption{Use case diagram "Motor Menu"}
+\end{table}
+
+\subsubsection{Dynamometer}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{dynamometerUseCase.PNG}
+	\caption{Use case diagram "Dynamometer"}
+\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       & Dynamometer                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User must be loaded-in                                                                                                                                                \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} &  User can view the dynamometer                                                                                                                                    \\ \hline
+			{\color[HTML]{FFFFFF} Description}    &  The user sees a detailed dynamometer where the on/off switch can be pressed                                                                                                \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &  \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Dynamometer"}
+\end{table}
+
+\subsubsection{Work-bench}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{workbenchUseCase.PNG}
+	\caption{Use case diagram "Work-bench"}
+\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       & Work-bench                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User must be loaded-in                                                                                                                                                \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} &  User can view the work-bench                                                                                                                                    \\ \hline
+			{\color[HTML]{FFFFFF} Description}    &  User will have access to the work-bench where he can place the motor to conduct the test  pressed                                                                                                \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &  Only 1 motor can be placed in the work-bench \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Work-bench"}
+\end{table}
+
+\subsubsection{Drag and Drop}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.9, frame]{DragDropUseCase.PNG}
+	\caption{Use case diagram "Drag and Drop"}
+\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       & Drag and Drop                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User must be loaded-in                                                                                                                                                \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} &  User can drag and drop motors onto the workbench                                                                                                                                   \\ \hline
+			{\color[HTML]{FFFFFF} Description}    &  {\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}User gets a set of visible hands where he can use to drag and drop components \\ from the motor menu to the workbench and interact with the control panel \end{tabular}}                                                                                               \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &  \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Work-bench"}
+\end{table}
+
+\section{Realization}
+
+
+\section{Conclusion}
+This chapter explained the visual aspect of our application as we move toward the next sprint where the calculations and tests can be conducted with visible results.
 
 \begin{thebibliography}{9}
 	

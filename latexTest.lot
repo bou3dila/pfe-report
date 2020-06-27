@@ -1,10 +1,25 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Pros and Cons of webVR}}{7}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Comparison between the 2d app and the 3d app}}{9}%
-\contentsline {table}{\numberline {1.3}{\ignorespaces Comparison between our app and an existing app}}{11}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Pros and Cons of webVR}}{10}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Comparison between the 2d app and the 3d app}}{12}%
+\contentsline {table}{\numberline {1.3}{\ignorespaces Comparison between our app and an existing app}}{14}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Scrum team}}{16}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Actors identification}}{16}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Product backlog}}{18}%
-\contentsline {table}{\numberline {2.4}{\ignorespaces Sprints name}}{19}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Scrum team}}{19}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Actors identification}}{19}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Product backlog}}{21}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Sprints name}}{22}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Sprint one backlog\relax }}{31}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Use case diagram "Control Panel"\relax }}{33}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Use case diagram "Load Setting"\relax }}{34}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Use case diagram "Voltage Setting"\relax }}{35}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Use case diagram "Load Setting"\relax }}{36}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Use case diagram "Speed Setting"\relax }}{37}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Use case diagram "Start/End the test"\relax }}{38}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Use case diagram "Results menu"\relax }}{39}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Sprint two backlog\relax }}{40}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Use case diagram "Motor Menu"\relax }}{42}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Use case diagram "Dynamometer"\relax }}{43}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Use case diagram "Work-bench"\relax }}{43}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Use case diagram "Work-bench"\relax }}{44}%

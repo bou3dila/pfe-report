@@ -1,43 +1,70 @@
-\contentsline {chapter}{\numberline {1}Presentation}{5}%
-\contentsline {section}{\numberline {1.1}Introduction}{5}%
-\contentsline {section}{\numberline {1.2}Hosting organization Presentation}{5}%
-\contentsline {section}{\numberline {1.3}Preliminary studies}{6}%
-\contentsline {subsection}{\numberline {1.3.1}WEB VR}{6}%
-\contentsline {subsubsection}{\numberline {1.3.1.1}Definition and history }{6}%
-\contentsline {subsubsection}{\numberline {1.3.1.2}Goals}{6}%
-\contentsline {subsubsection}{\numberline {1.3.1.3}Pros and cons}{7}%
-\contentsline {subsubsection}{\numberline {1.3.1.4}Conclusion}{7}%
-\contentsline {section}{\numberline {1.4}Project goals}{7}%
-\contentsline {section}{\numberline {1.5}Proposed solution}{8}%
-\contentsline {section}{\numberline {1.6}Related Works}{8}%
-\contentsline {subsection}{\numberline {1.6.1}Motor explorer (original application)}{8}%
-\contentsline {subsection}{\numberline {1.6.2}ESTPE VR}{10}%
-\contentsline {section}{\numberline {1.7}Development Method}{11}%
-\contentsline {subsection}{\numberline {1.7.1}Agile approach}{12}%
-\contentsline {subsection}{\numberline {1.7.2}Scrum Methodology}{12}%
-\contentsline {section}{\numberline {1.8}Conclusion}{14}%
-\contentsline {chapter}{\numberline {2}Requirement analysis and specification}{15}%
-\contentsline {section}{\numberline {2.1}Introduction}{15}%
-\contentsline {section}{\numberline {2.2}SCRUM Roles}{15}%
-\contentsline {section}{\numberline {2.3}Actors identification}{16}%
-\contentsline {section}{\numberline {2.4}Requirements Identification}{17}%
-\contentsline {subsection}{\numberline {2.4.1}Functional Requirements}{17}%
-\contentsline {subsection}{\numberline {2.4.2}Non functional requirements}{17}%
-\contentsline {section}{\numberline {2.5}Product backlog}{18}%
-\contentsline {section}{\numberline {2.6}Sprint Planning}{19}%
-\contentsline {section}{\numberline {2.7}Task Management}{20}%
-\contentsline {section}{\numberline {2.8}Functional Requirements Modeling}{20}%
-\contentsline {subsection}{\numberline {2.8.1}Use case}{21}%
-\contentsline {section}{\numberline {2.9}Conclusion}{21}%
-\contentsline {chapter}{\numberline {3}Project Initialization}{22}%
-\contentsline {section}{\numberline {3.1}Introduction}{22}%
-\contentsline {section}{\numberline {3.2}Solution Architecture}{22}%
-\contentsline {section}{\numberline {3.3}Technologies used}{22}%
-\contentsline {subsection}{\numberline {3.3.1}Hardware environment}{22}%
-\contentsline {subsection}{\numberline {3.3.2}Used paltforms}{23}%
-\contentsline {subsection}{\numberline {3.3.3}Tools used}{24}%
-\contentsline {subsubsection}{\numberline {3.3.3.1}Coding tools}{24}%
-\contentsline {subsubsection}{\numberline {3.3.3.2}3D designing tools}{25}%
-\contentsline {subsubsection}{\numberline {3.3.3.3}Versioning tools}{25}%
-\contentsline {subsubsection}{\numberline {3.3.3.4}Modeling tool}{25}%
-\contentsline {section}{\numberline {3.4}Conclusion}{26}%
+\contentsline {chapter}{\numberline {1}Presentation}{8}%
+\contentsline {section}{\numberline {1.1}Introduction}{8}%
+\contentsline {section}{\numberline {1.2}Hosting organization Presentation}{8}%
+\contentsline {section}{\numberline {1.3}Preliminary studies}{9}%
+\contentsline {subsection}{\numberline {1.3.1}WEB VR}{9}%
+\contentsline {subsubsection}{\numberline {1.3.1.1}Definition and history }{9}%
+\contentsline {subsubsection}{\numberline {1.3.1.2}Goals}{9}%
+\contentsline {subsubsection}{\numberline {1.3.1.3}Pros and cons}{10}%
+\contentsline {subsubsection}{\numberline {1.3.1.4}Conclusion}{10}%
+\contentsline {section}{\numberline {1.4}Project goals}{10}%
+\contentsline {section}{\numberline {1.5}Proposed solution}{11}%
+\contentsline {section}{\numberline {1.6}Related Works}{11}%
+\contentsline {subsection}{\numberline {1.6.1}Motor explorer (original application)}{11}%
+\contentsline {subsection}{\numberline {1.6.2}ESTPE VR}{13}%
+\contentsline {section}{\numberline {1.7}Development Method}{14}%
+\contentsline {subsection}{\numberline {1.7.1}Agile approach}{15}%
+\contentsline {subsection}{\numberline {1.7.2}Scrum Methodology}{15}%
+\contentsline {section}{\numberline {1.8}Conclusion}{17}%
+\contentsline {chapter}{\numberline {2}Requirement analysis and specification}{18}%
+\contentsline {section}{\numberline {2.1}Introduction}{18}%
+\contentsline {section}{\numberline {2.2}SCRUM Roles}{18}%
+\contentsline {section}{\numberline {2.3}Actors identification}{19}%
+\contentsline {section}{\numberline {2.4}Requirements Identification}{20}%
+\contentsline {subsection}{\numberline {2.4.1}Functional Requirements}{20}%
+\contentsline {subsection}{\numberline {2.4.2}Non functional requirements}{20}%
+\contentsline {section}{\numberline {2.5}Product backlog}{21}%
+\contentsline {section}{\numberline {2.6}Sprint Planning}{22}%
+\contentsline {section}{\numberline {2.7}Task Management}{23}%
+\contentsline {section}{\numberline {2.8}Functional Requirements Modeling}{23}%
+\contentsline {subsection}{\numberline {2.8.1}Use case}{24}%
+\contentsline {section}{\numberline {2.9}Conclusion}{24}%
+\contentsline {chapter}{\numberline {3}Project Initialization}{25}%
+\contentsline {section}{\numberline {3.1}Introduction}{25}%
+\contentsline {section}{\numberline {3.2}Solution Architecture}{25}%
+\contentsline {section}{\numberline {3.3}Technologies used}{25}%
+\contentsline {subsection}{\numberline {3.3.1}Hardware environment}{25}%
+\contentsline {subsection}{\numberline {3.3.2}Used paltforms}{26}%
+\contentsline {subsection}{\numberline {3.3.3}Tools used}{27}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Coding tools}{27}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}3D designing tools}{28}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}Versioning tools}{28}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}Modeling tool}{28}%
+\contentsline {section}{\numberline {3.4}Conclusion}{29}%
+\contentsline {chapter}{\numberline {4}First Sprint}{30}%
+\contentsline {section}{\numberline {4.1}Introduction}{30}%
+\contentsline {section}{\numberline {4.2}Sprint backlog}{31}%
+\contentsline {section}{\numberline {4.3}Analysis and conception}{31}%
+\contentsline {subsection}{\numberline {4.3.1}Actors identification}{31}%
+\contentsline {subsection}{\numberline {4.3.2}Use case diagram}{32}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Control panel}{33}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Load Setting}{34}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}Voltage Setting}{35}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}Load Setting}{36}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}Speed Setting}{37}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}Start/End the test}{38}%
+\contentsline {subsubsection}{\numberline {4.3.2.7}Results menu}{39}%
+\contentsline {section}{\numberline {4.4}Realization}{39}%
+\contentsline {section}{\numberline {4.5}Conclusion}{39}%
+\contentsline {chapter}{\numberline {5}Second Sprint}{40}%
+\contentsline {section}{\numberline {5.1}Introduction}{40}%
+\contentsline {section}{\numberline {5.2}Sprint backlog}{40}%
+\contentsline {section}{\numberline {5.3}Analysis and conception}{40}%
+\contentsline {subsection}{\numberline {5.3.1}Actors identification}{41}%
+\contentsline {subsection}{\numberline {5.3.2}Use case diagram}{41}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}Motor menu}{41}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}Dynamometer}{42}%
+\contentsline {subsubsection}{\numberline {5.3.2.3}Work-bench}{43}%
+\contentsline {subsubsection}{\numberline {5.3.2.4}Drag and Drop}{44}%
+\contentsline {section}{\numberline {5.4}Realization}{44}%
+\contentsline {section}{\numberline {5.5}Conclusion}{44}%

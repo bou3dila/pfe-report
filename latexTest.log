@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.25)  27 JUN 2020 01:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.25)  27 JUN 2020 17:01
 entering extended mode
 **./latexTest.tex
 (latexTest.tex
@@ -354,31 +354,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
  [1
 
-])
+] [2])
 \tf@toc=\write3
 \openout3 = `latexTest.toc'.
 
- [2] (latexTest.lof)
+ [3] (latexTest.lof [4
+
+])
 \tf@lof=\write4
 \openout4 = `latexTest.lof'.
 
- [3
 
-]
-(latexTest.lot)
+[5] (latexTest.lot [6
+
+])
 \tf@lot=\write5
 \openout5 = `latexTest.lot'.
 
- [4
-
-]
+ [7]
 Chapter 1.
-<XTECHLogo.png, id=19, 159.59625pt x 159.59625pt>
+<XTECHLogo.png, id=29, 159.59625pt x 159.59625pt>
 File: XTECHLogo.png Graphic file (type png)
 <use XTECHLogo.png>
 Package pdftex.def Info: XTECHLogo.png  used on input line 52.
 (pdftex.def)             Requested size: 79.79791pt x 79.79791pt.
-[5
+[8
 
  <./XTECHLogo.png>]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8
@@ -387,8 +387,8 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8
 ("C:\Users\Firas Bouadila\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts
 1phv.fd"
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-) [6] [7]
-<2dMotorExplorer.png, id=31, 1033.61156pt x 469.00218pt>
+) [9] [10]
+<2dMotorExplorer.png, id=40, 1033.61156pt x 469.00218pt>
 File: 2dMotorExplorer.png Graphic file (type png)
 <use 2dMotorExplorer.png>
 Package pdftex.def Info: 2dMotorExplorer.png  used on input line 168.
@@ -398,202 +398,410 @@ Overfull \hbox (47.84949pt too wide) in paragraph at lines 168--169
  [] 
  []
 
-[8] [9 <./2dMotorExplorer.png>]
-<ESTPEVR.png, id=40, 938.00438pt x 357.58594pt>
+[11] [12 <./2dMotorExplorer.png>]
+<ESTPEVR.png, id=50, 938.00438pt x 357.58594pt>
 File: ESTPEVR.png Graphic file (type png)
 <use ESTPEVR.png>
 Package pdftex.def Info: ESTPEVR.png  used on input line 206.
 (pdftex.def)             Requested size: 469.00104pt x 178.79253pt.
-<ESTPEVR1.png, id=41, 782.17218pt x 295.1025pt>
+<ESTPEVR1.png, id=51, 782.17218pt x 295.1025pt>
 File: ESTPEVR1.png Graphic file (type png)
 <use ESTPEVR1.png>
 Package pdftex.def Info: ESTPEVR1.png  used on input line 214.
 (pdftex.def)             Requested size: 469.30693pt x 177.06285pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
+
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10 <./ESTPEVR.png>] [11 <./ESTPEVR1.png>]
+[13 <./ESTPEVR.png>] [14 <./ESTPEVR1.png>]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 259.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 260.
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--285
+Underfull \hbox (badness 10000) in paragraph at lines 279--286
 
  []
 
-<scrum.png, id=50, 1027.84pt x 770.88pt>
+[15]
+<scrum.png, id=64, 1027.84pt x 770.88pt>
 File: scrum.png Graphic file (type png)
 <use scrum.png>
-Package pdftex.def Info: scrum.png  used on input line 288.
+Package pdftex.def Info: scrum.png  used on input line 289.
 (pdftex.def)             Requested size: 426.79134pt x 320.09744pt.
-[12] [13 <./scrum.png (PNG copy)>] [14]
+ [16 <./scrum.png (PNG copy)>] [17]
 Chapter 2.
-[15
+[18
 
 ]
-<User.png, id=65, 270.00874pt x 188.705pt>
+<User.png, id=75, 270.00874pt x 188.705pt>
 File: User.png Graphic file (type png)
 <use User.png>
-Package pdftex.def Info: User.png  used on input line 390.
+Package pdftex.def Info: User.png  used on input line 391.
 (pdftex.def)             Requested size: 140.92859pt x 170.71689pt.
- [16 <./User.png>] [17]
+ [19 <./User.png>] [20]
 Overfull \vbox (19.77705pt too high) has occurred while \output is active []
 
 
-[18]
-<SprintPlanning.png, id=77, 750.55406pt x 403.5075pt>
+[21]
+<SprintPlanning.png, id=86, 750.55406pt x 403.5075pt>
 File: SprintPlanning.png Graphic file (type png)
 <use SprintPlanning.png>
-Package pdftex.def Info: SprintPlanning.png  used on input line 485.
+Package pdftex.def Info: SprintPlanning.png  used on input line 486.
 (pdftex.def)             Requested size: 525.38426pt x 282.45332pt.
 
-Overfull \hbox (56.42923pt too wide) in paragraph at lines 485--486
+Overfull \hbox (56.42923pt too wide) in paragraph at lines 486--487
  [] 
  []
 
-[19 <./SprintPlanning.png>]
-<Trello.png, id=82, 1026.08344pt x 453.94594pt>
+[22 <./SprintPlanning.png>]
+<Trello.png, id=91, 1026.08344pt x 453.94594pt>
 File: Trello.png Graphic file (type png)
 <use Trello.png>
-Package pdftex.def Info: Trello.png  used on input line 510.
+Package pdftex.def Info: Trello.png  used on input line 511.
 (pdftex.def)             Requested size: 513.04047pt x 226.97241pt.
 
-Overfull \hbox (44.08543pt too wide) in paragraph at lines 510--511
+Overfull \hbox (44.08543pt too wide) in paragraph at lines 511--512
  [] 
  []
 
-<useCase.png, id=83, 576.65437pt x 315.42844pt>
+<useCase.png, id=92, 576.65437pt x 315.42844pt>
 File: useCase.png Graphic file (type png)
 <use useCase.png>
-Package pdftex.def Info: useCase.png  used on input line 519.
+Package pdftex.def Info: useCase.png  used on input line 520.
 (pdftex.def)             Requested size: 461.32411pt x 252.34308pt.
-[20 <./Trello.png>] [21 <./useCase.png>]
+[23 <./Trello.png>] [24 <./useCase.png>]
 Chapter 3.
-[22
+[25
 
 ]
-<React.png, id=95, 1246.6575pt x 710.655pt>
+<React.png, id=105, 1246.6575pt x 710.655pt>
 File: React.png Graphic file (type png)
 <use React.png>
-Package pdftex.def Info: React.png  used on input line 554.
+Package pdftex.def Info: React.png  used on input line 555.
 (pdftex.def)             Requested size: 156.49014pt x 89.20033pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--558
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
 
  []
 
-<Aframe.jpg, id=96, 225.84375pt x 225.84375pt>
+<Aframe.jpg, id=106, 225.84375pt x 225.84375pt>
 File: Aframe.jpg Graphic file (type jpg)
 <use Aframe.jpg>
-Package pdftex.def Info: Aframe.jpg  used on input line 561.
+Package pdftex.def Info: Aframe.jpg  used on input line 562.
 (pdftex.def)             Requested size: 156.49014pt x 156.49744pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
 
  []
 
-<Aframe-react.png, id=97, 331.2375pt x 255.95625pt>
+<Aframe-react.png, id=107, 331.2375pt x 255.95625pt>
 File: Aframe-react.png Graphic file (type png)
 <use Aframe-react.png>
-Package pdftex.def Info: Aframe-react.png  used on input line 572.
+Package pdftex.def Info: Aframe-react.png  used on input line 573.
 (pdftex.def)             Requested size: 156.49014pt x 120.92433pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 576--576
 
  []
 
-[23 <./React.png> <./Aframe.jpg> <./Aframe-react.png>]
-<super-hands.png, id=103, 417.05812pt x 182.18062pt>
+[26 <./React.png> <./Aframe.jpg> <./Aframe-react.png>]
+<super-hands.png, id=113, 417.05812pt x 182.18062pt>
 File: super-hands.png Graphic file (type png)
 <use super-hands.png>
-Package pdftex.def Info: super-hands.png  used on input line 578.
+Package pdftex.def Info: super-hands.png  used on input line 579.
 (pdftex.def)             Requested size: 156.49014pt x 68.35925pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--582
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
-<vscode.jpg, id=104, 225.84375pt x 225.84375pt>
+<vscode.jpg, id=114, 225.84375pt x 225.84375pt>
 File: vscode.jpg Graphic file (type jpg)
 <use vscode.jpg>
-Package pdftex.def Info: vscode.jpg  used on input line 591.
+Package pdftex.def Info: vscode.jpg  used on input line 592.
 (pdftex.def)             Requested size: 113.81102pt x 113.81412pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--596
+Underfull \hbox (badness 10000) in paragraph at lines 595--597
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--596
+Underfull \hbox (badness 10000) in paragraph at lines 595--597
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--596
+Underfull \hbox (badness 10000) in paragraph at lines 595--597
 
  []
 
-<3dBuilder.png, id=105, 200.75pt x 200.75pt>
+<3dBuilder.png, id=115, 200.75pt x 200.75pt>
 File: 3dBuilder.png Graphic file (type png)
 <use 3dBuilder.png>
-Package pdftex.def Info: 3dBuilder.png  used on input line 599.
+Package pdftex.def Info: 3dBuilder.png  used on input line 600.
 (pdftex.def)             Requested size: 156.49014pt x 156.50165pt.
-[24 <./super-hands.png> <./vscode.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+[27 <./super-hands.png> <./vscode.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
 
  []
 
-<gitlab.png, id=110, 319.1925pt x 158.5925pt>
+<gitlab.png, id=119, 319.1925pt x 158.5925pt>
 File: gitlab.png Graphic file (type png)
 <use gitlab.png>
-Package pdftex.def Info: gitlab.png  used on input line 608.
+Package pdftex.def Info: gitlab.png  used on input line 609.
 (pdftex.def)             Requested size: 156.49014pt x 77.75212pt.
-<Staruml.png, id=111, 220.825pt x 209.78375pt>
+<Staruml.png, id=120, 220.825pt x 209.78375pt>
 File: Staruml.png Graphic file (type png)
 <use Staruml.png>
-Package pdftex.def Info: Staruml.png  used on input line 620.
+Package pdftex.def Info: Staruml.png  used on input line 621.
 (pdftex.def)             Requested size: 113.81102pt x 108.12144pt.
-[25 <./3dBuilder.png> <./gitlab.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+[28 <./3dBuilder.png> <./gitlab.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 
  []
 
-[26 <./Staruml.png>]
+[29 <./Staruml.png>]
+Chapter 4.
+
+Overfull \hbox (56.10782pt too wide) in paragraph at lines 640--651
+[][] 
+ []
+
+[30
+
+]
+<sprintOneUseCase.png, id=134, 554.07pt x 359.84438pt>
+File: sprintOneUseCase.png Graphic file (type png)
+<use sprintOneUseCase.png>
+Package pdftex.def Info: sprintOneUseCase.png  used on input line 661.
+(pdftex.def)             Requested size: 498.6584pt x 323.85693pt.
+
+Overfull \hbox (29.70337pt too wide) in paragraph at lines 661--662
+[][] 
+ []
+
+[31]
+<controlPanelUseCase.png, id=138, 560.8453pt x 191.9672pt>
+File: controlPanelUseCase.png Graphic file (type png)
+<use controlPanelUseCase.png>
+Package pdftex.def Info: controlPanelUseCase.png  used on input line 668.
+(pdftex.def)             Requested size: 504.7561pt x 172.76888pt.
+
+Overfull \hbox (35.80107pt too wide) in paragraph at lines 668--669
+[][] 
+ []
+
+
+Overfull \hbox (34.04784pt too wide) in paragraph at lines 673--683
+ [] 
+ []
+
+[32 <./sprintOneUseCase.png>]
+<LoadUseCase.png, id=143, 547.2947pt x 174.6525pt>
+File: LoadUseCase.png Graphic file (type png)
+<use LoadUseCase.png>
+Package pdftex.def Info: LoadUseCase.png  used on input line 690.
+(pdftex.def)             Requested size: 492.56067pt x 157.18579pt.
+
+Overfull \hbox (23.60564pt too wide) in paragraph at lines 690--691
+[][] 
+ []
+
+
+Overfull \hbox (32.54771pt too wide) in paragraph at lines 695--705
+ [] 
+ []
+
+[33 <./controlPanelUseCase.png>]
+<VoltageUseCase.png, id=148, 508.14844pt x 142.28156pt>
+File: VoltageUseCase.png Graphic file (type png)
+<use VoltageUseCase.png>
+Package pdftex.def Info: VoltageUseCase.png  used on input line 713.
+(pdftex.def)             Requested size: 457.32936pt x 128.0522pt.
+
+Overfull \hbox (32.54771pt too wide) in paragraph at lines 718--728
+ [] 
+ []
+
+[34 <./LoadUseCase.png>]
+File: LoadUseCase.png Graphic file (type png)
+<use LoadUseCase.png>
+Package pdftex.def Info: LoadUseCase.png  used on input line 736.
+(pdftex.def)             Requested size: 492.56067pt x 157.18579pt.
+
+Overfull \hbox (23.60564pt too wide) in paragraph at lines 736--737
+[][] 
+ []
+
+
+Overfull \hbox (45.63754pt too wide) in paragraph at lines 741--751
+ [] 
+ []
+
+[35 <./VoltageUseCase.png>]
+<SpeedUseCase.png, id=157, 566.115pt x 169.38281pt>
+File: SpeedUseCase.png Graphic file (type png)
+<use SpeedUseCase.png>
+Package pdftex.def Info: SpeedUseCase.png  used on input line 759.
+(pdftex.def)             Requested size: 509.4988pt x 152.4431pt.
+
+Overfull \hbox (40.54376pt too wide) in paragraph at lines 759--760
+[][] 
+ []
+
+
+Overfull \hbox (40.88768pt too wide) in paragraph at lines 764--774
+ [] 
+ []
+
+[36]
+<StartEndUseCase.png, id=162, 533.74406pt x 133.24782pt>
+File: StartEndUseCase.png Graphic file (type png)
+<use StartEndUseCase.png>
+Package pdftex.def Info: StartEndUseCase.png  used on input line 781.
+(pdftex.def)             Requested size: 480.36522pt x 119.92192pt.
+
+Overfull \hbox (11.41019pt too wide) in paragraph at lines 781--782
+[][] 
+ []
+
+[37 <./SpeedUseCase.png>]
+<ResultMenuUseCase.png, id=167, 526.21594pt x 152.06813pt>
+File: ResultMenuUseCase.png Graphic file (type png)
+<use ResultMenuUseCase.png>
+Package pdftex.def Info: ResultMenuUseCase.png  used on input line 804.
+(pdftex.def)             Requested size: 473.58998pt x 136.86003pt.
+
+Overfull \hbox (4.63495pt too wide) in paragraph at lines 804--805
+[][] 
+ []
+
+
+Overfull \hbox (25.54808pt too wide) in paragraph at lines 809--819
+ [] 
+ []
+
+[38 <./StartEndUseCase.png>] [39 <./ResultMenuUseCase.png>]
+Chapter 5.
+[40
+
+]
+<sprintTwoUseCase.png, id=179, 551.81157pt x 247.67531pt>
+File: sprintTwoUseCase.png Graphic file (type png)
+<use sprintTwoUseCase.png>
+Package pdftex.def Info: sprintTwoUseCase.png  used on input line 858.
+(pdftex.def)             Requested size: 496.62582pt x 222.90572pt.
+
+Overfull \hbox (27.67079pt too wide) in paragraph at lines 858--859
+[][] 
+ []
+
+<motorMenuUseCase.png, id=180, 532.99126pt x 140.77594pt>
+File: motorMenuUseCase.png Graphic file (type png)
+<use motorMenuUseCase.png>
+Package pdftex.def Info: motorMenuUseCase.png  used on input line 864.
+(pdftex.def)             Requested size: 479.6877pt x 126.69714pt.
+
+Overfull \hbox (10.73267pt too wide) in paragraph at lines 864--865
+[][] 
+ []
+
+[41 <./sprintTwoUseCase.png> <./motorMenuUseCase.png>]
+<dynamometerUseCase.PNG, id=186, 527.72156pt x 122.70844pt>
+File: dynamometerUseCase.PNG Graphic file (type png)
+<use dynamometerUseCase.PNG>
+Package pdftex.def Info: dynamometerUseCase.PNG  used on input line 887.
+(pdftex.def)             Requested size: 474.94502pt x 110.43655pt.
+
+Overfull \hbox (5.98999pt too wide) in paragraph at lines 887--888
+[][] 
+ []
+
+[42 <./dynamometerUseCase.PNG>]
+<workbenchUseCase.PNG, id=192, 538.26094pt x 119.69719pt>
+File: workbenchUseCase.PNG Graphic file (type png)
+<use workbenchUseCase.PNG>
+Package pdftex.def Info: workbenchUseCase.PNG  used on input line 910.
+(pdftex.def)             Requested size: 484.43037pt x 107.72646pt.
+
+Overfull \hbox (15.47534pt too wide) in paragraph at lines 910--911
+[][] 
+ []
+
+
+Overfull \hbox (55.31813pt too wide) in paragraph at lines 916--926
+ [] 
+ []
+
+<DragDropUseCase.PNG, id=193, 517.18219pt x 111.41624pt>
+File: DragDropUseCase.PNG Graphic file (type png)
+<use DragDropUseCase.PNG>
+Package pdftex.def Info: DragDropUseCase.PNG  used on input line 933.
+(pdftex.def)             Requested size: 465.45967pt x 100.27368pt.
+[43 <./workbenchUseCase.PNG>] [44 <./DragDropUseCase.PNG>]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 635.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 963.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 647.
- [27
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 975.
+ [45
 
 ] (latexTest.aux)
 
@@ -601,10 +809,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5317 strings out of 480799
- 92728 string characters out of 2891579
+ 5390 strings out of 480799
+ 94358 string characters out of 2891579
  453661 words of memory out of 3000000
- 21223 multiletter control sequences out of 15000+200000
+ 21283 multiletter control sequences out of 15000+200000
  555223 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,96p,455b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -613,9 +821,9 @@ se/8r.enc}<C:/Users/Firas Bouadila/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/urw/helvetic/uhvb8a.pfb><C:/Users/Firas Bouadila/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Firas Bouadila/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on latexTest.pdf (28 pages, 3304784 bytes).
+Output written on latexTest.pdf (46 pages, 3512268 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
+ 219 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
