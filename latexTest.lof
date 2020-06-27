@@ -17,6 +17,7 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces 3D builder Logo\relax }}{28}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces GitLab Logo\relax }}{28}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces StarUml Logo\relax }}{29}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Slack Logo\relax }}{29}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Use case diagram "Sprint One"\relax }}{32}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Use case diagram "Control Panel"\relax }}{33}%
@@ -28,7 +29,13 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Use case diagram "Results Menu"\relax }}{39}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Use case diagram "Sprint Two"\relax }}{41}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Use case diagram "Motor Menu"\relax }}{41}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Use case diagram "Dynamometer"\relax }}{42}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Use case diagram "Motor Menu"\relax }}{42}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Use case diagram "Dynamometer"\relax }}{43}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Use case diagram "Work-bench"\relax }}{43}%
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Use case diagram "Drag and Drop"\relax }}{44}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Use case diagram "Sprint Three"\relax }}{47}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Use case diagram "Animations"\relax }}{48}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Use case diagram "Sounds"\relax }}{49}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Use case diagram "AC motors calculations"\relax }}{50}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Use case diagram "DC motors calculations"\relax }}{51}%
