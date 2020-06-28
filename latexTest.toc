@@ -81,3 +81,15 @@
 \contentsline {subsubsection}{\numberline {6.3.2.4}DC motors calculations}{51}%
 \contentsline {section}{\numberline {6.4}Realization}{51}%
 \contentsline {section}{\numberline {6.5}Conclusion}{51}%
+\contentsline {chapter}{\numberline {7}Fourth Spring}{52}%
+\contentsline {section}{\numberline {7.1}Introduction}{52}%
+\contentsline {section}{\numberline {7.2}Sprint backlog}{53}%
+\contentsline {section}{\numberline {7.3}Analysis and conception}{53}%
+\contentsline {subsection}{\numberline {7.3.1}Actors identification}{53}%
+\contentsline {subsection}{\numberline {7.3.2}Use case diagrams}{54}%
+\contentsline {subsubsection}{\numberline {7.3.2.1}The loader}{54}%
+\contentsline {subsubsection}{\numberline {7.3.2.2}Motor panels}{55}%
+\contentsline {subsubsection}{\numberline {7.3.2.3}Dynamometer panel}{56}%
+\contentsline {subsubsection}{\numberline {7.3.2.4}Dynamometer panel}{57}%
+\contentsline {section}{\numberline {7.4}Realization}{58}%
+\contentsline {section}{\numberline {7.5}Conclusion}{58}%

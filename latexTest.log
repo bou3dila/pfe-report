@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.25)  27 JUN 2020 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.25)  28 JUN 2020 14:50
 entering extended mode
 **./latexTest.tex
 (latexTest.tex
@@ -864,16 +864,60 @@ Package pdftex.def Info: ACcalculationsUseCase.PNG  used on input line 1049.
 <DCcalculationsUseCase.PNG, id=227, 728.7225pt x 219.82124pt>
 File: DCcalculationsUseCase.PNG Graphic file (type png)
 <use DCcalculationsUseCase.PNG>
-Package pdftex.def Info: DCcalculationsUseCase.PNG  used on input line 1072.
+Package pdftex.def Info: DCcalculationsUseCase.PNG  used on input line 1073.
 (pdftex.def)             Requested size: 437.23688pt x 131.89375pt.
  [50 <./ACcalculationsUseCase.PNG>] [51 <./DCcalculationsUseCase.PNG>]
+Chapter 7.
+
+Overfull \hbox (59.53821pt too wide) in paragraph at lines 1108--1117
+[][] 
+ []
+
+[52
+
+]
+<SprintFourUseCase.PNG, id=239, 570.63188pt x 292.84406pt>
+File: SprintFourUseCase.PNG Graphic file (type png)
+<use SprintFourUseCase.PNG>
+Package pdftex.def Info: SprintFourUseCase.PNG  used on input line 1125.
+(pdftex.def)             Requested size: 456.50613pt x 234.27556pt.
+ [53]
+<LoaderUseCase.PNG, id=243, 543.53062pt x 175.40532pt>
+File: LoaderUseCase.PNG Graphic file (type png)
+<use LoaderUseCase.PNG>
+Package pdftex.def Info: LoaderUseCase.PNG  used on input line 1131.
+(pdftex.def)             Requested size: 434.82507pt x 140.32443pt.
+ [54 <./SprintFourUseCase.PNG> <./LoaderUseCase.PNG>]
+<MotorPanelsUseCase.PNG, id=250, 588.69937pt x 171.64125pt>
+File: MotorPanelsUseCase.PNG Graphic file (type png)
+<use MotorPanelsUseCase.PNG>
+Package pdftex.def Info: MotorPanelsUseCase.PNG  used on input line 1154.
+(pdftex.def)             Requested size: 470.96013pt x 137.31316pt.
+
+Overfull \hbox (2.0051pt too wide) in paragraph at lines 1154--1155
+[][] 
+ []
+
+[55 <./MotorPanelsUseCase.PNG>]
+<DynamometerPanelUseCase.PNG, id=255, 564.60938pt x 176.15813pt>
+File: DynamometerPanelUseCase.PNG Graphic file (type png)
+<use DynamometerPanelUseCase.PNG>
+Package pdftex.def Info: DynamometerPanelUseCase.PNG  used on input line 1176.
+(pdftex.def)             Requested size: 451.68811pt x 140.92668pt.
+ [56 <./DynamometerPanelUseCase.PNG>]
+File: DynamometerPanelUseCase.PNG Graphic file (type png)
+<use DynamometerPanelUseCase.PNG>
+Package pdftex.def Info: DynamometerPanelUseCase.PNG  used on input line 1199.
+(pdftex.def)             Requested size: 451.68811pt x 140.92668pt.
+ [57]
+[58]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 1106.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 1230.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 1118.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 1242.
 
- [52
+ [59
 
 ] (latexTest.aux)
 
@@ -881,21 +925,21 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5427 strings out of 480799
- 95223 string characters out of 2891579
+ 5451 strings out of 480799
+ 95821 string characters out of 2891579
  453661 words of memory out of 3000000
- 21315 multiletter control sequences out of 15000+200000
+ 21335 multiletter control sequences out of 15000+200000
  555223 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,96p,455b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,16n,96p,465b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Firas Bouadila/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/ba
 se/8r.enc}<C:/Users/Firas Bouadila/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/urw/helvetic/uhvb8a.pfb><C:/Users/Firas Bouadila/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Firas Bouadila/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on latexTest.pdf (53 pages, 3613899 bytes).
+Output written on latexTest.pdf (60 pages, 3692075 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
+ 283 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

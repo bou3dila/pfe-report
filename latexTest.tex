@@ -1051,6 +1051,7 @@ This sprint has one actor: User
 \end{figure}
 
 
+
 \begin{table}[H]
 	\begin{center}
 		\begin{tabular}{|
@@ -1096,6 +1097,129 @@ This sprint has one actor: User
 \section{Conclusion}
 
 This chapter contained the basic functions that our application will be realizing which is the accurate calculations and after this comes the final sprint where it will contain all the optimization needed for the VR environment.
+
+
+\chapter{Fourth Spring}
+\section{Introduction}
+This chapter will conclude the development process of the application and will contain the final work that took place . As always we will lead by presenting the backlog , into the conception of the use diagrams and finish by a visual presentation of the product.
+\section{Sprint backlog}
+
+\begin{table}[H]
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\rowcolor[HTML]{6200C9} 
+		\multicolumn{1}{|c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} User story}}                                                     & \multicolumn{1}{c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} Description}}                                                  & \multicolumn{1}{c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} Priority}} & \multicolumn{1}{c|}{\cellcolor[HTML]{6200C9}{\color[HTML]{FFFFFF} Estimation}} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}I   as a user would like to see a loader\\  at the start of the app\end{tabular}                         & \begin{tabular}[c]{@{}l@{}}User will have a loading screen   when first loading \\ the application\end{tabular}                  & 13                                                                           & 2                                                                              \\ \hline
+		\begin{tabular}[c]{@{}l@{}}I   as a user would like to have panels\\ containing   information about the\\ motors\end{tabular}       & \begin{tabular}[c]{@{}l@{}}Upon hovering on a motor you will   obtain detailed\\ information about that motor\end{tabular}       & 14                                                                           & 4                                                                              \\ \hline
+		\begin{tabular}[c]{@{}l@{}}I   as a user would like to have a panel\\ containing   information about the\\ dynamometer\end{tabular} & \begin{tabular}[c]{@{}l@{}}Upon hovering on the dynamometer   you will obtain all \\ the information on that device\end{tabular} & 15                                                                           & 4                                                                              \\ \hline
+		\begin{tabular}[c]{@{}l@{}}I   as a user would like to have an\\ instructions panel\end{tabular}                                    & \begin{tabular}[c]{@{}l@{}}User has instructions to easily   guide him throughout \\ the application\end{tabular}                & 16                                                                           & 4                                                                              \\ \hline
+	\end{tabular}
+\end{table}
+
+\section{Analysis and conception}
+The next part will have the detailed information on the sprint user stories.
+\subsection{Actors identification}
+the only actor in this sprint is the user.
+\subsection{Use case diagrams}
+\begin{figure}[H]
+	\includegraphics[scale=0.8, frame]{SprintFourUseCase.PNG}
+	\caption{Use case diagram "Sprint Four Use Case"}
+\end{figure}
+
+\subsubsection{The loader}
+\begin{figure}[H]
+	\includegraphics[scale=0.8, frame]{LoaderUseCase.PNG}
+	\caption{Use case diagram "Sprint Four Use Case"}
+\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       & The loader                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User launches the application                                                          \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} &  User sees loading progress on his screen                                                                                                                                \\ \hline
+			{\color[HTML]{FFFFFF} Description}    & \begin{tabular}[c]{@{}l@{}}Upon starting the application the user will get a loading screen \\ showing him the progress of the loading \end{tabular}                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &   \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "The Loader"}
+\end{table}
+
+
+\subsubsection{Motor panels}
+\begin{figure}[H]
+	\includegraphics[scale=0.8, frame]{MotorPanelsUseCase.PNG}
+	\caption{Use case diagram "Motor Panels Use Case"}
+\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       & Motor panels                                                                                                                                                     \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User launches the application                                                          \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} &  User can see the details on each motor                                                                                                                             \\ \hline
+			{\color[HTML]{FFFFFF} Description}    & \begin{tabular}[c]{@{}l@{}}Upon hovering on the motor user gets a visual readable text that shows \\ him the details of that motor \end{tabular}                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &   \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Motor panels"}
+\end{table}
+
+\subsubsection{Dynamometer panel}
+\begin{figure}[H]
+	\includegraphics[scale=0.8, frame]{DynamometerPanelUseCase.PNG}
+	\caption{Use case diagram "Motor Panels Use Case"}
+\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       & Dynamometer panel                                                                                                                                                    \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User launches the application                                                          \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} &  User can read the information about dynamomemter                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Description}    & \begin{tabular}[c]{@{}l@{}}Upon hovering on the dynamometer the user will obtain detailed description\\ on what is the dynamometer . \end{tabular}                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &   \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Motor panels"}
+\end{table}
+
+
+\subsubsection{Dynamometer panel}
+\begin{figure}[H]
+	\includegraphics[scale=0.8, frame]{DynamometerPanelUseCase.PNG}
+	\caption{Use case diagram "Motor Panels Use Case"}
+\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|
+				>{\columncolor[HTML]{6200C9}}l |l|}
+			\hline
+			{\color[HTML]{FFFFFF} Use case}       & Dynamometer panel                                                                                                                                                    \\ \hline
+			{\color[HTML]{FFFFFF} Main actor}     &  user                                                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Pre-condition}  &  User launches the application                                                          \\ \hline
+			{\color[HTML]{FFFFFF} Post Condition} &  User can read the information about dynamomemter                                                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Description}    & \begin{tabular}[c]{@{}l@{}}Upon hovering on the dynamometer the user will obtain detailed description\\ on what is the dynamometer . \end{tabular}                                                                                           \\ \hline
+			{\color[HTML]{FFFFFF} Exception}      &   \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Use case diagram "Dynamometer panels"}
+\end{table}
+
+\section{Realization}
+
+\section{Conclusion}
+
 
 
 
